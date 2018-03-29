@@ -1,0 +1,4 @@
+﻿  string.cpp
+d:\d\hk181\đồ họa máy tính\opengl\consoleapplication1\string\string.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  string.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\ConsoleApplication1\Debug\string.exe
+  string.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\ConsoleApplication1\Debug\string.pdb (Full PDB)

@@ -1,0 +1,66 @@
+﻿  Mesh.cpp
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(13): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(16): error C2039: 'SetColor': is not a member of 'Mesh'
+  d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.h(37): note: see declaration of 'Mesh'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(17): error C2065: 'numFaces': undeclared identifier
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(18): error C2065: 'face': undeclared identifier
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(18): error C2228: left of '.nVerts' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(19): error C2065: 'face': undeclared identifier
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(19): error C2228: left of '.vert' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(19): error C2228: left of '.colorIndex' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(142): error C2039: 'CreateCylinder': is not a member of 'Mesh'
+  d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.h(37): note: see declaration of 'Mesh'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(143): error C3861: 'Cylinder': identifier not found
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(145): error C2065: 'numVerts': undeclared identifier
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(146): error C3861: 'TopDownCylinder': identifier not found
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(147): error C3861: 'TopDownCylinder': identifier not found
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(149): error C2065: 'face': undeclared identifier
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(149): error C2228: left of '.vert' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(149): error C2228: left of '.vertIndex' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(150): error C2065: 'face': undeclared identifier
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(150): error C2228: left of '.vert' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(150): error C2228: left of '.vertIndex' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(151): error C3861: 'AroundCylinder': identifier not found
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(202): error C2511: 'void Mesh::CreateOvanAdvan(float,float,float)': overloaded member function not found in 'Mesh'
+  d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.h(37): note: see declaration of 'Mesh'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(205): error C2597: illegal reference to non-static member 'Mesh::numVerts'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(212): error C2597: illegal reference to non-static member 'Mesh::numVerts'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(212): error C2597: illegal reference to non-static member 'Mesh::pt'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(213): error C2597: illegal reference to non-static member 'Mesh::numVerts'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(213): error C3867: 'Mesh::numVerts': non-standard syntax; use '&' to create a pointer to member
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(214): error C2597: illegal reference to non-static member 'Mesh::pt'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(214): error C3867: 'Mesh::pt': non-standard syntax; use '&' to create a pointer to member
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(214): error C2109: subscript requires array or pointer type
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(215): error C2597: illegal reference to non-static member 'Mesh::numVerts'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(215): error C3867: 'Mesh::numVerts': non-standard syntax; use '&' to create a pointer to member
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(215): error C2597: illegal reference to non-static member 'Mesh::pt'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(215): error C3867: 'Mesh::pt': non-standard syntax; use '&' to create a pointer to member
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(215): error C2109: subscript requires array or pointer type
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(218): error C2597: illegal reference to non-static member 'Mesh::numVerts'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(218): error C3867: 'Mesh::numVerts': non-standard syntax; use '&' to create a pointer to member
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(218): error C2568: '<': unable to resolve function overload
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(219): error C2597: illegal reference to non-static member 'Mesh::pt'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(219): error C3867: 'Mesh::pt': non-standard syntax; use '&' to create a pointer to member
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(219): error C2109: subscript requires array or pointer type
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(219): error C2228: left of '.x' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(220): error C2597: illegal reference to non-static member 'Mesh::pt'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(220): error C3867: 'Mesh::pt': non-standard syntax; use '&' to create a pointer to member
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(220): error C2109: subscript requires array or pointer type
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(220): error C2228: left of '.x' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(222): error C2597: illegal reference to non-static member 'Mesh::pt'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(222): error C3867: 'Mesh::pt': non-standard syntax; use '&' to create a pointer to member
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(222): error C2109: subscript requires array or pointer type
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(222): error C2228: left of '.x' must have class/struct/union
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(225): error C2597: illegal reference to non-static member 'Mesh::numFaces'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(226): error C2597: illegal reference to non-static member 'Mesh::numFaces'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(226): error C2597: illegal reference to non-static member 'Mesh::face'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(227): error C2352: 'Mesh::DrawAroundBai5': illegal call of non-static member function
+  d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.h(78): note: see declaration of 'Mesh::DrawAroundBai5'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(228): error C2597: illegal reference to non-static member 'Mesh::numVerts'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(228): error C3867: 'Mesh::numVerts': non-standard syntax; use '&' to create a pointer to member
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(228): error C2352: 'Mesh::DrawAroundBai5': illegal call of non-static member function
+  d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.h(78): note: see declaration of 'Mesh::DrawAroundBai5'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(229): error C2352: 'Mesh::DrawTopDownBai5': illegal call of non-static member function
+  d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.h(79): note: see declaration of 'Mesh::DrawTopDownBai5'
+d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.cpp(230): error C2352: 'Mesh::DrawTopDownBai5': illegal call of non-static member function
+  d:\d\hk181\đồ họa máy tính\lab\lab2\shortcut\lab2\mesh.h(79): note: see declaration of 'Mesh::DrawTopDownBai5'

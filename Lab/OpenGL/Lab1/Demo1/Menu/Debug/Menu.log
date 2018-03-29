@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  Menu.cpp
+d:\d\hk181\đồ họa máy tính\opengl\lab1\demo1\menu\menu.cpp(25): warning C4018: '<': signed/unsigned mismatch
+  Menu.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\Lab1\Demo1\Debug\Menu.exe
+  Menu.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\Lab1\Demo1\Debug\Menu.pdb (Full PDB)

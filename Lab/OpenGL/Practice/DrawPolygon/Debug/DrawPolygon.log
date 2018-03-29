@@ -1,0 +1,6 @@
+﻿  DrawPolygon.cpp
+d:\d\hk181\đồ họa máy tính\opengl\practice\drawpolygon\drawpolygon.cpp(142): warning C4018: '<': signed/unsigned mismatch
+d:\d\hk181\đồ họa máy tính\opengl\practice\drawpolygon\drawpolygon.cpp(150): warning C4018: '<': signed/unsigned mismatch
+d:\d\hk181\đồ họa máy tính\opengl\practice\drawpolygon\drawpolygon.cpp(163): warning C4018: '<': signed/unsigned mismatch
+  DrawPolygon.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\Practice\Debug\DrawPolygon.exe
+  DrawPolygon.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\Practice\Debug\DrawPolygon.pdb (Full PDB)

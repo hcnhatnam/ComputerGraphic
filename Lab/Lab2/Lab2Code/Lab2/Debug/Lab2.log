@@ -1,0 +1,4 @@
+﻿  Mesh.cpp
+d:\d\hk181\đồ họa máy tính\lab2\lab2\lab2\mesh.cpp(13): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+  Lab2.vcxproj -> D:\D\HK181\Đồ họa máy tính\Lab2\Lab2\Debug\Lab2.exe
+  Lab2.vcxproj -> D:\D\HK181\Đồ họa máy tính\Lab2\Lab2\Debug\Lab2.pdb (Full PDB)

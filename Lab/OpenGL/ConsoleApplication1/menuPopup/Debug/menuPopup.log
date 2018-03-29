@@ -1,0 +1,4 @@
+﻿  menuPopup.cpp
+d:\d\hk181\đồ họa máy tính\opengl\consoleapplication1\menupopup\menupopup.cpp(23): warning C4018: '<': signed/unsigned mismatch
+  menuPopup.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\ConsoleApplication1\Debug\menuPopup.exe
+  menuPopup.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\ConsoleApplication1\Debug\menuPopup.pdb (Full PDB)

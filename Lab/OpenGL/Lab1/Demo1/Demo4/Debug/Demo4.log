@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  Demo4.cpp
+d:\d\hk181\đồ họa máy tính\opengl\lab1\demo1\demo4\demo4.cpp(15): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+  Demo4.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\Lab1\Demo1\Debug\Demo4.exe
+  Demo4.vcxproj -> D:\D\HK181\Đồ họa máy tính\OpenGL\Lab1\Demo1\Debug\Demo4.pdb (Full PDB)
