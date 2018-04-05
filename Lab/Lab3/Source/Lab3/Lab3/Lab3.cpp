@@ -90,6 +90,7 @@ void myKeyboard(unsigned char key, int x, int y)
 	case 'r':
 	case 'R':
 		crankOvan.rotateZ = -30;
+		base.rotateY = 0;
 		break;
 	case 'w':
 	case 'W':
@@ -119,7 +120,7 @@ void drawAxis()
 void drawBase()
 {
 	glPushMatrix();
-	glRotatef(base.rotateY, 0, 1, 0);
+	//glRotatef(base.rotateY, 0, 1, 0);
 	glTranslated(0, baseHeight / 2.0, 0);
 	
 
@@ -144,7 +145,6 @@ void drawColumn()
 
 	glPopMatrix();
 }
-
 /*
 void drawScrollBarT1OVan()
 {
@@ -325,10 +325,11 @@ void myDisplay()
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glViewport(0, 0, screenWidth, screenHeight);
-
+	/*
 	drawAxis();
 	glPushMatrix();
 	//glRotatef(base.rotateY, 0, 1, 0);
+	glRotatef(base.rotateY, 0, 1, 0);
 	glTranslated(0, 0, 0);
 	
 	drawColumn();
@@ -342,8 +343,8 @@ void myDisplay()
 	glTranslated(crankOvanLenght*cos(crankOvan.rotateZ * PI / 180), crankOvanLenght*sin(-crankOvan.rotateZ * PI / 180),scrollBarT1OvanHeight);
 	drawScrollBarT1();
 	
-
 	glPopMatrix();
+	*/
 	glFlush();
 	glutSwapBuffers();
 }
@@ -369,9 +370,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	glutInitWindowSize(screenWidth, screenHeight); //set window size
 	glutInitWindowPosition(100, 100); // set window position on screen
 	glutCreateWindow("Lab 3 - Demo (2017-2018)"); // open the screen window
-
+	/*
 	base.CreateCylinder(baseRadius,baseHeight,baseRotateStep); //CreateCylinder(Ban kinh,chieu cao,ban kinh(Don vi Do))
-	//base.SetColor(6);
+	base.SetColor(6);
 
 	column.CreateCuboid(columnSizeX, columnSizeY, columnSizeZ);
 	column.SetColor(1);
@@ -397,8 +398,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	shelf2Sloid.SetColor(8);
 	shelf2Empty.CreateCuboWithThick(shelf1EmptySize, shelf1EmptySize, shelf1EmptySize, 0.01);
 	shelf2Empty.SetColor(8);
-	
-
 
 	crankOvan.CreateOvan(crankOvanRadius,crankOvanHeight,crankOvanLenght);
 	crankOvan.SetColor(6);
@@ -408,8 +407,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	crankCylinderIn.SetColor(4);
 	crankCylinderOut.CreateCylinder(crankCylinderRadius, crankCylinderHeightOut, crankCylinderRotateStep);
 	crankCylinderOut.SetColor(4);
+	*/
 	myInit();
-
+	
 	glutKeyboardFunc(myKeyboard);
 	glutDisplayFunc(myDisplay);
 
